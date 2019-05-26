@@ -4,7 +4,7 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-  arr.map { |w| puts "#{w.capitalize}! " }
+  arr.collect { |w| puts "#{w.capitalize}! " }
 
 end
 
