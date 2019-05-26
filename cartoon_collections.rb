@@ -4,9 +4,7 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-   arr.map { |w|
-      "#{w.capitalize}!"
-   }
+   arr.map { |w|  "#{w.capitalize}!" }
 end
 
 def long_planeteer_calls(arr)
@@ -17,7 +15,7 @@ def long_planeteer_calls(arr)
   #return true or false
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
