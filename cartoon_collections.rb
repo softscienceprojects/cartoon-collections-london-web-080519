@@ -21,5 +21,5 @@ def find_the_cheese(arr)
   if arr.any? { |food| cheese_types.include?(food) } == true
     return food
   else
-    retur nil
+    return nil
 end
