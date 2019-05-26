@@ -5,7 +5,6 @@ end
 
 def summon_captain_planet(arr)
   calls = arr.collect { |w| puts "#{w.capitalize}! " }
-  return calls
 end
 
 def long_planeteer_calls# code an argument here
