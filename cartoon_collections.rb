@@ -20,4 +20,6 @@ def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if arr.any? { |food| cheese_types.include?(food) } == true
     return food
+  else
+    retur nil
 end
